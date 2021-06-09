@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Form</title>
+</head>
+
+<body>
+    <h2>My Registration Form</h2>
+    <form action="/action_page.php">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email </label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="password">Password </label>
+        <input type="password" id="password"><br><br>
+        <label for="pwconf">PW Confirm </label>
+        <input type="password" id="pwconf" name="pwconf"><br><br>
+        <label for="bday">Birthday</label>
+        <input type="date" id="bday" name="bday"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="male"><br><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="female"><br><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="other"><br><br>
+        <p>A short description about yourself:</p>
+        <textarea name="descript" id="textarea" cols="30" rows="10"></textarea><br><br>
+        <label id="dropdown">Favorite Language</label>
+        <select name="lang" id="lang">
+            <option value="jslang">JavaScript</option>
+            <option value="mrnlang">Mern</option>
+            <option value="ptlang">Python</option>
+        </select><br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+
+</html>
